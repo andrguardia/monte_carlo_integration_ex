@@ -14,6 +14,10 @@
 		AB15999C298DC3FE00E06EDE /* monte_carlo_integration_exTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB15999B298DC3FE00E06EDE /* monte_carlo_integration_exTests.swift */; };
 		AB1599A6298DC3FE00E06EDE /* monte_carlo_integration_exUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1599A5298DC3FE00E06EDE /* monte_carlo_integration_exUITests.swift */; };
 		AB1599A8298DC3FE00E06EDE /* monte_carlo_integration_exUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1599A7298DC3FE00E06EDE /* monte_carlo_integration_exUITestsLaunchTests.swift */; };
+		AB1599B9298DC83300E06EDE /* monteCarlo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1599B8298DC83300E06EDE /* monteCarlo.swift */; };
+		AB1599BD298DDD0C00E06EDE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1599BC298DDD0C00E06EDE /* DrawingView.swift */; };
+		AB1599BE298DDD0C00E06EDE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1599BC298DDD0C00E06EDE /* DrawingView.swift */; };
+		AB1599BF298DDD0C00E06EDE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1599BC298DDD0C00E06EDE /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 		AB1599A1298DC3FE00E06EDE /* monte_carlo_integration_exUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = monte_carlo_integration_exUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1599A5298DC3FE00E06EDE /* monte_carlo_integration_exUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monte_carlo_integration_exUITests.swift; sourceTree = "<group>"; };
 		AB1599A7298DC3FE00E06EDE /* monte_carlo_integration_exUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monte_carlo_integration_exUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB1599B8298DC83300E06EDE /* monteCarlo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monteCarlo.swift; sourceTree = "<group>"; };
+		AB1599BC298DDD0C00E06EDE /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,10 @@
 		AB159988298DC3FE00E06EDE /* monte_carlo_integration_ex */ = {
 			isa = PBXGroup;
 			children = (
+				AB1599B8298DC83300E06EDE /* monteCarlo.swift */,
 				AB159989298DC3FE00E06EDE /* monte_carlo_integration_exApp.swift */,
 				AB15998B298DC3FE00E06EDE /* ContentView.swift */,
+				AB1599BC298DDD0C00E06EDE /* DrawingView.swift */,
 				AB15998D298DC3FE00E06EDE /* Assets.xcassets */,
 				AB15998F298DC3FE00E06EDE /* monte_carlo_integration_ex.entitlements */,
 				AB159990298DC3FE00E06EDE /* Preview Content */,
@@ -260,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB15998C298DC3FE00E06EDE /* ContentView.swift in Sources */,
+				AB1599B9298DC83300E06EDE /* monteCarlo.swift in Sources */,
 				AB15998A298DC3FE00E06EDE /* monte_carlo_integration_exApp.swift in Sources */,
+				AB1599BD298DDD0C00E06EDE /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB15999C298DC3FE00E06EDE /* monte_carlo_integration_exTests.swift in Sources */,
+				AB1599BE298DDD0C00E06EDE /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1599BF298DDD0C00E06EDE /* DrawingView.swift in Sources */,
 				AB1599A8298DC3FE00E06EDE /* monte_carlo_integration_exUITestsLaunchTests.swift in Sources */,
 				AB1599A6298DC3FE00E06EDE /* monte_carlo_integration_exUITests.swift in Sources */,
 			);
