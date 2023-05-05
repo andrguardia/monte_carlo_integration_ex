@@ -60,8 +60,8 @@ class monteCarlo: ObservableObject {
     
     func randomize(){
         ///This function randomly populates a value for x and y
-        randX = Double.random(in: -lowerBoundX...upperBoundX)
-        randY = Double.random(in: -lowerBoundY...upperBoundY)
+        randX = Double.random(in: lowerBoundX...upperBoundX)
+        randY = Double.random(in: lowerBoundY...upperBoundY)
     }
     
     func boundCheck(){
